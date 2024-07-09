@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import '../App.css'
+import '../../components/App.css'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -31,7 +31,7 @@ export default function HeroSection() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <img src='image1.jpg' alt='image' className='w-60' />
+            <img  src='image1.jpg' alt='image'/>
         </SwiperSlide>
         <SwiperSlide>
             <img src='image2.png' alt='image' />

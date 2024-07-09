@@ -1,14 +1,12 @@
 import './App.css';
-import HeroSection from './components/HeroSection';
-import Middle from './components/Middle';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
        <Navbar />
-       <HeroSection />
-       <Middle />
+       <Footer />
     </div>
   );
 }
